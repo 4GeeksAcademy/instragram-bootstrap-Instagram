@@ -1,0 +1,218 @@
+<div class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid d-flex flex-nowrap">
+          <div class="left">
+            <a class="navbar-brand" href="#">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram</a>
+          </div>
+          <div class="rigth">
+            <form class="d-flex" role="search">
+              <!-- Inicio boton modal -->
+              <div class="boton-dcha d-flex gap-2">
+                  <button type="button" class="btn btn-primary crear-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                     Create a new post</button>
+                     <!-- Modal -->
+                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Post</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label"><strong>Caption</strong></label>
+                                <textarea class="form-control" id="message-text" placeholder="Add the caption of your post here"></textarea>
+                              </div>
+                                <!-- Botons icono -->
+                                    <div class="iconos">
+                                     <button type="button" class="btn btn-outline-secondary" disabled>
+                                        <i class="fa-solid fa-camera"></i>
+                                      </button> 
+                                      <button type="button" class="btn btn-outline-secondary" disabled>
+                                            <i class="fa-solid fa-location-dot"></i>
+                                      </button>
+                                  </div>
+                            </form>
+                          </div>
+                          
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary crear-button">Publish</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              <!-- Fin modal -->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle bg-secondary text-white rounded d-flex href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-gear text-white"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item coloritem" href="#">Log out</a></li>
+                  </ul>
+                </li>               
+              </ul>
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              
+              </div>
+            
+            </form>
+          </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Selector de iconos -->
+      <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="btn" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+            <i class="fa-solid fa-table-cells"></i>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"> 
+            <i class="fa-solid fa-square"></i>
+          </button>
+        </li>
+      </ul>
+      <!-- Inicio 3 imagenes -->
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <!-- Fila 1 de imagenes -->
+          <div class="row p-1">
+            <div class="p-2 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center">
+              <img class="col-12 d-flex align-items-center" src="https://images.ecestaticos.com/h34TvzTFVdrau9Un4Wdmwhed_e4=/0x115:2265x1390/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8ec%2F08c%2F85c%2F8ec08c85c866ccb70c4f1c36492d890f.jpg" alt="Perro">
+            </div>
+            <div class="p-2 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center">
+              <img class="col-12" src="https://cdn-pe.comparabien.com/s3fs-public/field/image/estudiantes-2.jpg?VersionId=bSGP2wtxZqXW6K73erjYgHKRDXFPIzzU" alt="Estudiantes">
+            </div>
+            <div class="p-2 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center">
+              <img class="col-12" src="https://cdn.holidayguru.es/wp-content/uploads/2018/03/Manarola-Cinque-Terre-Italy-shutterstock_100984339-1920x1280-1.jpg" alt="Costa">
+            </div>
+            <div class="p-2 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center">
+              <img class="col-12 d-flex align-items-center" src="https://static.vecteezy.com/system/resources/previews/001/852/304/non_2x/portrait-of-a-woman-smiling-free-photo.jpg" alt="Mujer sonriendo">
+            </div>
+            <div class="p-2 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center">
+              <img class="col-12" src="https://imageio.forbes.com/specials-images/imageserve/6468ea7be5b5bee9d12e9948/eiffel-tour-and-Paris-cityscape/0x0.jpg?format=jpg&height=1835&width=2767" alt="Paris">
+            </div>
+            <div class="p-2 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center">
+              <img class="col-12" src="https://www.elespectador.com/resizer/RE6PCg6x5_y2fPXg0pIg5ixbBOQ=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/FAW3ISJQOHR7ESTP7GCTTYAVWU.jpg" alt="Ronaldo">
+            </div>
+            <div class="p-2 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center">
+              <img class="col-12 d-flex align-items-center" src="https://media.gq.com.mx/photos/64f5e28b931f01a0c0898df7/master/w_2560%2Cc_limit/pareja.jpg" alt="Pareja">
+            </div>
+            <div class="p-2 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center">
+              <img class="col-12" src="https://okdiario.com/img/2018/11/28/codigo-html.jpg" alt="Codigo">
+            </div>
+            <div class="p-2 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center">
+              <img class="col-12" src="https://www.redaccionmedica.com/images/destacados/empezar-clases-a-las-11-para-no-perjudicar-la-salud-mental-del-estudiante-2921.jpg" alt="Clase">
+            </div>
+          </div>
+        </div>
+        <!-- Inicio imagenes individuales -->
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <!-- Imagen1 -->
+          <div class="row d-flex justify-content-center">
+            <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
+              <div class="p-2 d-flex justify-content-between" >
+                <div><h3>My dog!</h3></div>
+                <div>10/23</div>
+              </div>
+              <img class="col-12" src="https://images.ecestaticos.com/h34TvzTFVdrau9Un4Wdmwhed_e4=/0x115:2265x1390/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8ec%2F08c%2F85c%2F8ec08c85c866ccb70c4f1c36492d890f.jpg" alt="Perro">
+              <div class="d-flex flex-column" >
+                <div><span><strong>500 likes</strong></span></div>
+                <div><span>I love my dog. he is so cute!</span></div>
+                <div><span>He is the best</span></div>
+              </div>
+            </div>
+          </div>
+           <!-- Imagen2 -->
+           <div class="row d-flex justify-content-center">
+            <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
+              <div class="p-2 d-flex justify-content-between" >
+                <div><h3>My dog!</h3></div>
+                <div>10/23</div>
+              </div>
+              <img class="col-12" src="https://cdn-pe.comparabien.com/s3fs-public/field/image/estudiantes-2.jpg?VersionId=bSGP2wtxZqXW6K73erjYgHKRDXFPIzzU" alt="Estudiantes">
+              <div class="d-flex flex-column" >
+                <div><span><strong>500 likes</strong></span></div>
+                <div><span>I love my dog. he is so cute!</span></div>
+                <div><span>He is the best</span></div>
+              </div>
+            </div>
+          </div>
+           <!-- Imagen3 -->
+           <div class="row d-flex justify-content-center">
+            <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
+              <div class="p-2 d-flex justify-content-between" >
+                <div><h3>My dog!</h3></div>
+                <div>10/23</div>
+              </div>
+              <img class="col-12" src="https://cdn.holidayguru.es/wp-content/uploads/2018/03/Manarola-Cinque-Terre-Italy-shutterstock_100984339-1920x1280-1.jpg" alt="Costa">
+              <div class="d-flex flex-column" >
+                <div><span><strong>500 likes</strong></span></div>
+                <div><span>I love my dog. he is so cute!</span></div>
+                <div><span>He is the best</span></div>
+              </div>
+            </div>
+          </div>
+           <!-- Imagen4 -->
+           <div class="row d-flex justify-content-center">
+            <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
+              <div class="p-2 d-flex justify-content-between" >
+                <div><h3>My dog!</h3></div>
+                <div>10/23</div>
+              </div>
+              <img class="col-12 d-flex align-items-center" src="https://static.vecteezy.com/system/resources/previews/001/852/304/non_2x/portrait-of-a-woman-smiling-free-photo.jpg" alt="Mujer sonriendo">
+              <div class="d-flex flex-column" >
+                <div><span><strong>500 likes</strong></span></div>
+                <div><span>I love my dog. he is so cute!</span></div>
+                <div><span>He is the best</span></div>
+              </div>
+            </div>
+          </div>
+           <!-- Imagen5 -->
+           <div class="row d-flex justify-content-center">
+            <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
+              <div class="p-2 d-flex justify-content-between" >
+                <div><h3>My dog!</h3></div>
+                <div>10/23</div>
+              </div>
+              <img class="col-12" src="https://imageio.forbes.com/specials-images/imageserve/6468ea7be5b5bee9d12e9948/eiffel-tour-and-Paris-cityscape/0x0.jpg?format=jpg&height=1835&width=2767" alt="Paris">
+              <div class="d-flex flex-column" >
+                <div><span><strong>500 likes</strong></span></div>
+                <div><span>I love my dog. he is so cute!</span></div>
+                <div><span>He is the best</span></div>
+              </div>
+            </div>
+          </div>
+           <!-- Imagen6 -->
+           <div class="row d-flex justify-content-center">
+            <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
+              <div class="p-2 d-flex justify-content-between" >
+                <div><h3>My dog!</h3></div>
+                <div>10/23</div>
+              </div>
+              <img class="col-12" src="https://www.elespectador.com/resizer/RE6PCg6x5_y2fPXg0pIg5ixbBOQ=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/FAW3ISJQOHR7ESTP7GCTTYAVWU.jpg" alt="Ronaldo">
+              <div class="d-flex flex-column" >
+                <div><span><strong>500 likes</strong></span></div>
+                <div><span>I love my dog. he is so cute!</span></div>
+                <div><span>He is the best</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>

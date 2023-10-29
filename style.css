@@ -1,0 +1,35 @@
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+.dropdown-menu[data-bs-popper] {
+    left: -150px;
+}
+.btn-outline-success {
+    background-color: green;
+    color: white;
+}
+.fa-solid{
+    color: black;
+}
+.icon-modal{
+    display: flex;
+    gap: 10px;
+}
+.btn-primary{
+    background-color: green;
+    color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: white;
+}
+.tamimg{
+    box-sizing: content-box;
+    width: 100%;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
