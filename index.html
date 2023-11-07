@@ -23,7 +23,8 @@
             <form class="d-flex" role="search">
               <!-- Inicio boton modal -->
               <div class="boton-dcha d-flex gap-2">
-                  <button type="button" class="btn btn-primary crear-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+               
+                <button type="button" class="btn btn-primary crear-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
                      Create a new post</button>
                      <!-- Modal -->
                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -39,7 +40,7 @@
                                 <label for="message-text" class="col-form-label"><strong>Caption</strong></label>
                                 <textarea class="form-control" id="message-text" placeholder="Add the caption of your post here"></textarea>
                               </div>
-                                <!-- Botons icono -->
+                                <!-- Botones icono -->
                                     <div class="iconos">
                                      <button type="button" class="btn btn-outline-secondary" disabled>
                                         <i class="fa-solid fa-camera"></i>
@@ -59,9 +60,8 @@
                       </div>
                     </div>
               <!-- Fin modal -->
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              </button>
+
+              <!-- Navbar -->
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
@@ -78,9 +78,7 @@
                 </li>               
               </ul>
               <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-              
               </div>
-            
             </form>
           </div>
           </div>
@@ -132,27 +130,46 @@
           <!-- Imagen1 -->
           <div class="row d-flex justify-content-center">
             <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
-              <div class="p-2 d-flex justify-content-between" >
+              <div class="p-2 d-flex justify-content-between">
                 <div><h3>My dog!</h3></div>
-                <div>23/10</div>
+                <span>23/10</span>
               </div>
               <img class="col-12" src="https://images.ecestaticos.com/h34TvzTFVdrau9Un4Wdmwhed_e4=/0x115:2265x1390/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8ec%2F08c%2F85c%2F8ec08c85c866ccb70c4f1c36492d890f.jpg" alt="Perro">
-              <div class="d-flex flex-column" >
+              <!-- linea de iconos -->
+              <div class="p-1 d-flex justify-content-between">
+                <div class="d-flex gap-1">
+                <i class=" fa-regular fa-heart"></i>
+                <i class=" fa-regular fa-comment"></i>
+                <i class=" fa-regular fa-paper-plane"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+
+              <div class="p-1 d-flex flex-column">
                 <div><span><strong>500 likes</strong></span></div>
                 <div><span>I love my dog. he is so cute!</span></div>
-                <div><span>He is the best</span></div>
+                <div><span>He is the best.</span></div>
               </div>
             </div>
           </div>
            <!-- Imagen2 -->
            <div class="row d-flex justify-content-center">
             <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
-              <div class="p-2 d-flex justify-content-between" >
+              <div class="p-2 d-flex justify-content-between">
                 <div><h3>Fellow Students</h3></div>
-                <div>28/10</div>
+                <span>28/10</span>
               </div>
               <img class="col-12" src="https://cdn-pe.comparabien.com/s3fs-public/field/image/estudiantes-2.jpg?VersionId=bSGP2wtxZqXW6K73erjYgHKRDXFPIzzU" alt="Estudiantes">
-              <div class="d-flex flex-column" >
+               <!-- linea de iconos -->
+               <div class="p-1 d-flex justify-content-between">
+                <div class="d-flex gap-1">
+                <i class=" fa-regular fa-heart"></i>
+                <i class=" fa-regular fa-comment"></i>
+                <i class=" fa-regular fa-paper-plane"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+              <div class="p-1 d-flex flex-column">
                 <div><span><strong>425 likes</strong></span></div>
                 <div><span>These are the classmates who help me understand how to improve my classes.</span></div>
                 <div><span>They are the best</span></div>
@@ -162,12 +179,20 @@
            <!-- Imagen3 -->
            <div class="row d-flex justify-content-center">
             <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
-              <div class="p-2 d-flex justify-content-between" >
+              <div class="p-2 d-flex justify-content-between">
                 <div><h3>Câmara dos Lobos</h3></div>
-                <div>30/10</div>
+                <span>30/10</span>
               </div>
               <img class="col-12" src="https://media.istockphoto.com/id/467497162/es/foto/camara-de-lobos-madeira.jpg?s=612x612&w=0&k=20&c=ciCleq8Umi5woEh4vkY4B08BoALXItDovIWWopE007Q=" alt="Costa">
-              <div class="d-flex flex-column" >
+               <!-- linea de iconos -->
+               <div class="p-1 d-flex justify-content-between">
+                <div class="d-flex gap-1">
+                <i class=" fa-regular fa-heart"></i>
+                <i class=" fa-regular fa-comment"></i>
+                <i class=" fa-regular fa-paper-plane"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div><div class="p-1 d-flex flex-column">
                 <div><span><strong>654 likes</strong></span></div>
                 <div><span>This is a chamber of wolves (Câmara dos Lobos), my grandfather was born here and soon a place that I will visit often thanks to the course I am taking!</span></div>
                 <div><span>Meu Lugar (my place)</span></div>
@@ -177,12 +202,21 @@
            <!-- Imagen4 -->
            <div class="row d-flex justify-content-center">
             <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
-              <div class="p-2 d-flex justify-content-between" >
+              <div class="p-2 d-flex justify-content-between">
                 <div><h3>The Teacher</h3></div>
-                <div>02/11</div>
+                <span>02/11</span>
               </div>
               <img class="col-12 d-flex align-items-center" src="https://static.vecteezy.com/system/resources/previews/001/852/304/non_2x/portrait-of-a-woman-smiling-free-photo.jpg" alt="Mujer sonriendo">
-              <div class="d-flex flex-column" >
+               <!-- linea de iconos -->
+               <div class="p-1 d-flex justify-content-between">
+                <div class="d-flex gap-1">
+                <i class=" fa-regular fa-heart"></i>
+                <i class=" fa-regular fa-comment"></i>
+                <i class=" fa-regular fa-paper-plane"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+              <div class="p-1 d-flex flex-column">
                 <div><span><strong>552 likes</strong></span></div>
                 <div><span>She is the teacher who has the patience to teach me and learn more every day! Thank you!</span></div>
                 <div><span>She is the best</span></div>
@@ -192,12 +226,21 @@
            <!-- Imagen5 -->
            <div class="row d-flex justify-content-center">
             <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
-              <div class="p-2 d-flex justify-content-between" >
+              <div class="p-2 d-flex justify-content-between">
                 <div><h3>We will always have Paris</h3></div>
-                <div>05/11</div>
+                <span>05/11</span>
               </div>
               <img class="col-12" src="https://imageio.forbes.com/specials-images/imageserve/6468ea7be5b5bee9d12e9948/eiffel-tour-and-Paris-cityscape/0x0.jpg?format=jpg&height=1835&width=2767" alt="Paris">
-              <div class="d-flex flex-column" >
+               <!-- linea de iconos -->
+               <div class="p-1 d-flex justify-content-between">
+                <div class="d-flex gap-1">
+                <i class=" fa-regular fa-heart"></i>
+                <i class=" fa-regular fa-comment"></i>
+                <i class=" fa-regular fa-paper-plane"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+              <div class="p-1 d-flex flex-column">
                 <div><span><strong>684 likes</strong></span></div>
                 <div><span>Someday I will visit it and see its sunrises and sunsets with that person.</span></div>
                 <div><span>The best City</span></div>
@@ -207,12 +250,21 @@
            <!-- Imagen6 -->
            <div class="row d-flex justify-content-center">
             <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
-              <div class="p-2 d-flex justify-content-between" >
+              <div class="p-2 d-flex justify-content-between">
                 <div><h3>Cristiano Ronaldo!!</h3></div>
-                <div>11/11</div>
+                <span>11/11</span>
               </div>
               <img class="col-12" src="https://www.elespectador.com/resizer/RE6PCg6x5_y2fPXg0pIg5ixbBOQ=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/FAW3ISJQOHR7ESTP7GCTTYAVWU.jpg" alt="Ronaldo">
-              <div class="d-flex flex-column" >
+               <!-- linea de iconos -->
+               <div class="p-1 d-flex justify-content-between">
+                <div class="d-flex gap-1">
+                <i class=" fa-regular fa-heart"></i>
+                <i class=" fa-regular fa-comment"></i>
+                <i class=" fa-regular fa-paper-plane"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+              <div class="p-1 d-flex flex-column">
                 <div><span><strong>1254 likes</strong></span></div>
                 <div><span>With sacrifices, with efforts, with mentality and with consistency, everything is achieved, and he has taught me that.</span></div>
                 <div><span>The best</span></div>
@@ -222,12 +274,21 @@
           <!-- Imagen 7 -->
           <div class="row d-flex justify-content-center">
             <div class="p-0 col-xs-12 col-sm-12 col-md-6 border border-ligh rounded mb-4">
-              <div class="p-2 d-flex justify-content-between" >
+              <div class="p-2 d-flex justify-content-between">
                 <div><h3>Codigo</h3></div>
-                <div>24/12</div>
+                <span>24/12</span>
               </div>
               <img class="col-12" src="https://okdiario.com/img/2018/11/28/codigo-html.jpg" alt="Codigo">
-              <div class="d-flex flex-column" >
+               <!-- linea de iconos -->
+               <div class="p-1 d-flex justify-content-between">
+                <div class="d-flex gap-1">
+                <i class=" fa-regular fa-heart"></i>
+                <i class=" fa-regular fa-comment"></i>
+                <i class=" fa-regular fa-paper-plane"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+              <div class="p-1 d-flex flex-column">
                 <div><span><strong>153 likes</strong></span></div>
                 <div><span>I upload this photo today to fulfill my Christmas wish, this is why I study.</span></div>
                 <div><span>I'm going to learn with baby steps</span></div>
